@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Second File</title>
+    <style>
+        i.first{
+            color: red;
+        }
+        i{
+            color: orange;
+        }
+        em{
+            color: orange;
+        }
+        h3{
+            color: rgb(138, 138, 202);
+            text-decoration: underline;
+            font-size: 1.5em;
+        }
+        a{
+            color: dodgerblue;
+            text-decoration: none;
+        }
+        button[type="submit"]{
+            color: rgb(138, 138, 202);
+            font-weight: 600;
+            border-radius: 5px;
+            padding: 5px;
+        }
+        h1{
+            color: rgb(131, 131, 222);
+            font-size: 60px;
+        }
+    </style>
+  </head>
+  <body>
+    <body>
+
+        <div>
+        <h1 style="color: rgb(131, 131, 222); font-size: 60px;">Hello world, I am Second Page!</h1>
+        </div>
+        
+        <div>
+          <i class="first">* This page contains internal CSS</i>
+                
+          <p>
+            This page contains internal CSS that includes creating a <em>style tag</em>
+             as an element in the <i>head tag</i>. It allows a HTML selector to be defined, which possess a declaration
+             of the <em>property to value.</em>.
+          </p>
+        </div>
+        
+        <div class="form">
+            <h3>Contact Form</h3>
+            <form action="#" method="post">
+                First-Name : <input type="text" name="name" placeholder="Enter your Name"><br><br>
+                Email : <input type="email" name="email" placeholder="Enter your email"><br><br>
+                Telephone : <input type="text" name="telephone" placeholder="Enter your phone number"><br><br>
+                Address : <input type="text" name="address" placeholder="Enter your address"><br><br>
+                Message : <br>
+                <textarea name="message" id="message" cols="30" rows="10" placeholder="Enter your message"></textarea><br>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+        <hr>
+        <div class="buttons">
+            <button type="button"><a href="./index.html">To previous page</a></button>
+            <button type="button"><a href="./third.html">To next page</a></button>
+            </div>
+    </body>
+</html>
